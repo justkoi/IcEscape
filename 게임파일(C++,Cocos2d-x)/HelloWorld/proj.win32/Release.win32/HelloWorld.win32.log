@@ -1,0 +1,104 @@
+﻿빌드 시작: 2012-09-29 오전 10:19:11
+     1>3 노드의 "C:\cocos2d\HelloWorld\proj.win32\HelloWorld.win32.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Release.win32\HelloWorld.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I..\..\cocos2dx /I..\..\cocos2dx\include /I..\..\cocos2dx\kazmath\include /I..\..\cocos2dx\platform\win32 /I..\..\cocos2dx\platform\third_party\win32 /I..\..\cocos2dx\platform\third_party\win32\OGLES /I..\..\CocosDenshion\Include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\Block.cpp ..\Classes\CEffectManager.cpp ..\Classes\CreditScene.cpp ..\Classes\GameScene.cpp ..\Classes\Map.cpp ..\Classes\MenuScene.cpp ..\Classes\StageMenuScene.cpp HelloWorldScene.cpp main.cpp
+         AppDelegate.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Block.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>..\Classes\Block.cpp(33): warning C4996: 'cocos2d::CCAnimation::animation': deprecated로 선언되었습니다.
+                 C:\cocos2d\cocos2dx\sprite_nodes/CCAnimation.h(95) : 'cocos2d::CCAnimation::animation' 선언을 참조하십시오.
+     1>..\Classes\Block.cpp(40): warning C4996: 'cocos2d::CCSprite::spriteWithFile': deprecated로 선언되었습니다.
+                 C:\cocos2d\cocos2dx\sprite_nodes/CCSprite.h(180) : 'cocos2d::CCSprite::spriteWithFile' 선언을 참조하십시오.
+     1>..\Classes\Block.cpp(44): warning C4996: 'cocos2d::CCRepeatForever::actionWithAction': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\actions\CCActionInterval.h(230) : 'cocos2d::CCRepeatForever::actionWithAction' 선언을 참조하십시오.
+         CEffectManager.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>..\Classes\CEffectManager.cpp(35): warning C4996: 'cocos2d::CCAnimation::animation': deprecated로 선언되었습니다.
+                 C:\cocos2d\cocos2dx\sprite_nodes/CCAnimation.h(95) : 'cocos2d::CCAnimation::animation' 선언을 참조하십시오.
+     1>..\Classes\CEffectManager.cpp(42): warning C4996: 'cocos2d::CCSprite::spriteWithFile': deprecated로 선언되었습니다.
+                 C:\cocos2d\cocos2dx\sprite_nodes/CCSprite.h(180) : 'cocos2d::CCSprite::spriteWithFile' 선언을 참조하십시오.
+     1>..\Classes\CEffectManager.cpp(46): warning C4996: 'cocos2d::CCRepeatForever::actionWithAction': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\actions\CCActionInterval.h(230) : 'cocos2d::CCRepeatForever::actionWithAction' 선언을 참조하십시오.
+         CreditScene.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>..\Classes\CreditScene.cpp(242): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+         GameScene.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>..\Classes\GameScene.cpp(381): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\GameScene.cpp(486): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\GameScene.cpp(537): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         Map.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         MenuScene.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>..\Classes\MenuScene.cpp(176): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\MenuScene.cpp(187): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+         StageMenuScene.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>..\Classes\StageMenuScene.cpp(490): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(513): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(521): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(529): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(537): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(545): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(553): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(561): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(569): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+     1>..\Classes\StageMenuScene.cpp(577): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': deprecated로 선언되었습니다.
+                 c:\cocos2d\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h(477) : 'cocos2d::CCTransitionFade::transitionWithDuration' 선언을 참조하십시오.
+         HelloWorldScene.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         main.cpp
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d\cocos2dx\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cocos2d\Release.win32\HelloWorld.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\cocos2d\CocosDenshion\include /LIBPATH:C:\cocos2d\Release.win32\ libcocos2d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release.win32\HelloWorld.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\cocos2d\Release.win32\HelloWorld.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cocos2d\Release.win32\HelloWorld.lib" /MACHINE:X86 Release.win32\AppDelegate.obj
+         Release.win32\Block.obj
+         Release.win32\CEffectManager.obj
+         Release.win32\CreditScene.obj
+         Release.win32\GameScene.obj
+         Release.win32\Map.obj
+         Release.win32\MenuScene.obj
+         Release.win32\StageMenuScene.obj
+         Release.win32\HelloWorldScene.obj
+         Release.win32\main.obj
+         C:\cocos2d\Release.win32\libcocos2d.lib
+     1>AppDelegate.obj : error LNK2001: "__declspec(dllimport) public: void __thiscall CocosDenshion::SimpleAudioEngine::resumeBackgroundMusic(void)" (__imp_?resumeBackgroundMusic@SimpleAudioEngine@CocosDenshion@@QAEXXZ) 외부 기호를 확인할 수 없습니다.
+     1>AppDelegate.obj : error LNK2001: "__declspec(dllimport) public: void __thiscall CocosDenshion::SimpleAudioEngine::pauseBackgroundMusic(void)" (__imp_?pauseBackgroundMusic@SimpleAudioEngine@CocosDenshion@@QAEXXZ) 외부 기호를 확인할 수 없습니다.
+     1>AppDelegate.obj : error LNK2001: "__declspec(dllimport) public: static class CocosDenshion::SimpleAudioEngine * __cdecl CocosDenshion::SimpleAudioEngine::sharedEngine(void)" (__imp_?sharedEngine@SimpleAudioEngine@CocosDenshion@@SAPAV12@XZ) 외부 기호를 확인할 수 없습니다.
+     1>CreditScene.obj : error LNK2001: "__declspec(dllimport) public: void __thiscall CocosDenshion::SimpleAudioEngine::preloadEffect(char const *)" (__imp_?preloadEffect@SimpleAudioEngine@CocosDenshion@@QAEXPBD@Z) 외부 기호를 확인할 수 없습니다.
+     1>CreditScene.obj : error LNK2001: "__declspec(dllimport) public: unsigned int __thiscall CocosDenshion::SimpleAudioEngine::playEffect(char const *,bool)" (__imp_?playEffect@SimpleAudioEngine@CocosDenshion@@QAEIPBD_N@Z) 외부 기호를 확인할 수 없습니다.
+     1>CreditScene.obj : error LNK2001: "__declspec(dllimport) public: void __thiscall CocosDenshion::SimpleAudioEngine::playBackgroundMusic(char const *,bool)" (__imp_?playBackgroundMusic@SimpleAudioEngine@CocosDenshion@@QAEXPBD_N@Z) 외부 기호를 확인할 수 없습니다.
+     1>CreditScene.obj : error LNK2001: "__declspec(dllimport) public: void __thiscall CocosDenshion::SimpleAudioEngine::preloadBackgroundMusic(char const *)" (__imp_?preloadBackgroundMusic@SimpleAudioEngine@CocosDenshion@@QAEXPBD@Z) 외부 기호를 확인할 수 없습니다.
+     1>C:\cocos2d\Release.win32\HelloWorld.exe : fatal error LNK1120: 7개의 확인할 수 없는 외부 참조입니다.
+     1>"C:\cocos2d\HelloWorld\proj.win32\HelloWorld.win32.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:29.94

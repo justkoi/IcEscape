@@ -1,0 +1,4 @@
+﻿  CCTextureCache.cpp
+cl : 명령줄 warning D9035: 'Gm' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다.
+C:\Users\BeakNohYeon\Documents\GitHub\CrossPuzzleGit\IcEscape\게임파일(C++,Cocos2d-x)\cocos2dx\platform\third_party\win32\pthread\pthread.h(307,17): error C2011: 'timespec': 'struct' 형식 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h(39): message : 'timespec' 선언을 참조하십시오.
