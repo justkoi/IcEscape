@@ -1,0 +1,97 @@
+﻿빌드 시작: 2012-09-12 오전 8:45:31
+     1>2 노드의 "C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\IcEscape.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\Game_IcEscape.unsuccessfulbuild"을(를) 만들고 있습니다.
+       PreBuildEvent:
+          xcopy ..\libary\dll\*.dll ./y
+         :VCEnd
+         ..\libary\dll\AntTweakBar.dll
+         ..\libary\dll\DevIL.dll
+         ..\libary\dll\fmodex.dll
+         ..\libary\dll\fmodexL.dll
+         ..\libary\dll\fmodexp.dll
+         ..\libary\dll\glfw.dll
+         ..\libary\dll\ILU.dll
+         ..\libary\dll\ILUT.dll
+         8개 파일이 복사되었습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../Libary/include /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StageMenu.cpp
+         StageMenu.cpp
+     1>c:\users\windowsphone7\desktop\icesacpe\emengine\homienginev6\enginesample\icescape\StageMenu.h(30): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'stStageInfo' 왼쪽은 무시됩니다.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\Game_IcEscape.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../Libary/Lib DevIL.lib ILU.lib ILUT.lib glut32.lib opengl32.lib glu32.lib AntTweakBar.lib fmodex_vc.lib glfwdll.lib freetype237.lib ftgl_static_MT.lib box2d.lib OGL_Core_r.lib EMEngine3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"Release\Game_IcEscape.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\Game_IcEscape.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\Game_IcEscape.lib" /MACHINE:X86 Release\Game_IcEscape.res
+         Release\EMBlock.obj
+         Release\EMCamShakeManager.obj
+         Release\EMDolphin.obj
+         Release\EMEffectManager.obj
+         Release\EMGameMng.obj
+         Release\EMMap.obj
+         Release\EMNeonSign.obj
+         Release\EMSled.obj
+         Release\EMSnowMng.obj
+         Release\ClickedState.obj
+         Release\EMStyleButton.obj
+         Release\NoneState.obj
+         Release\OverState.obj
+         Release\EMTextDisplay.obj
+         Release\EMVibrater.obj
+         Release\HowToPlay.obj
+         Release\Menu.obj
+         Release\Logo.obj
+         Release\Producer.obj
+         Release\Stage.obj
+         Release\main.obj
+         Release\StageMenu.obj
+         코드를 생성하고 있습니다.
+     1>c:\users\windowsphone7\desktop\icesacpe\emengine\homienginev6\enginesample\icescape\emvibrater.cpp(350): warning C4715: 'CEMVibrater::IsEnd' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\windowsphone7\desktop\icesacpe\emengine\homienginev6\enginesample\icescape\emvibrater.cpp(335): warning C4715: 'CEMVibrater::IsVibrating' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+         코드를 생성했습니다.
+     1>EMEngine3.lib(EMAnimation.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMAnimation.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMAnimator.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMAnimator.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMAnimatorList.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMAnimatorList.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMASE.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMASE.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMBBox.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMBBox.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMCamera.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMCamera.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMColor.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMColor.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMFrustum.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMFrustum.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMMath.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMMath.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMMatrix3x3.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMMatrix3x3.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMMatrix4x4.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMMatrix4x4.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMMFCCamera.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMMFCCamera.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMNumber.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMNumber.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMPhysicRoot.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMPhysicRoot.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMPlane.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMPlane.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMRect.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMRect.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMSound.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMSound.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMSprite.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMSprite.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMSpriteList.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMSpriteList.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMText.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMText.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMTexture.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMTexture.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMVector.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMVector.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMWorld.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMWorld.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(Scene.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(Scene.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(SceneWork.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(SceneWork.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMInput.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMInput.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMString.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMString.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMButton.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMButton.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMCheckBox.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMCheckBox.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMEditBox.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMEditBox.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMIme.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMIme.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMImm.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMImm.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMInterface.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMInterface.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMListBox.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMListBox.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMRadioButton.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMRadioButton.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>EMEngine3.lib(EMStatic.obj) : warning LNK4099: 'emengine_vc80.pdb' PDB를 'EMEngine3.lib(EMStatic.obj)' 또는 'C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\emengine_vc80.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+         IcEscape.vcxproj -> C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\Release\Game_IcEscape.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\Game_IcEscape.exe;#1" /manifest Release\Game_IcEscape.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Release\Game_IcEscape.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\Game_IcEscape.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\WindowsPhone7\Desktop\IcEsacpe\EMEngine\HOMIEnginev6\EngineSample\IcEscape\IcEscape.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:15.58

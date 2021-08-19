@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11E58781-2C7F-44CE-B926-D35FB312C513}</ProjectGuid>
+    <RootNamespace>My01_윈도우만들기</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Game_IcEscape</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command> xcopy ..\libary\dll\*.dll ./y</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft Visual Studio 10.0\VC\include;../Libary/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>DevIL.lib;ILU.lib;ILUT.lib;glut32.lib;opengl32.lib;glu32.lib;AntTweakBar.lib;fmodex_vc.lib;glfwdll.lib;freetype237.lib;ftgl_static_MT.lib;box2d.lib;OGL_Core_d.lib;EMEngine3_d.lib;Version.lib;Imm32.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft Visual Studio 10.0\VC\lib;../Libary/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command> xcopy ..\libary\dll\*.dll ./y</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../Libary/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>DevIL.lib;ILU.lib;ILUT.lib;glut32.lib;opengl32.lib;glu32.lib;AntTweakBar.lib;fmodex_vc.lib;glfwdll.lib;freetype237.lib;ftgl_static_MT.lib;box2d.lib;OGL_Core_r.lib;EMEngine3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Libary/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EMBlock.cpp" />
+    <ClCompile Include="EMCamShakeManager.cpp" />
+    <ClCompile Include="EMDolphin.cpp" />
+    <ClCompile Include="EMEffectManager.cpp" />
+    <ClCompile Include="EMGameMng.cpp" />
+    <ClCompile Include="EMMap.cpp" />
+    <ClCompile Include="EMNeonSign.cpp" />
+    <ClCompile Include="EMSled.cpp" />
+    <ClCompile Include="EMSnowMng.cpp" />
+    <ClCompile Include="EMStyleButton\ClickedState.cpp" />
+    <ClCompile Include="EMStyleButton\EMStyleButton.cpp" />
+    <ClCompile Include="EMStyleButton\NoneState.cpp" />
+    <ClCompile Include="EMStyleButton\OverState.cpp" />
+    <ClCompile Include="EMTextDisplay.cpp" />
+    <ClCompile Include="EMVibrater.cpp" />
+    <ClCompile Include="HowToPlay.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="Producer.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="StageMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EMBlock.h" />
+    <ClInclude Include="EMCamShakeManager.h" />
+    <ClInclude Include="EMDolphin.h" />
+    <ClInclude Include="EMEffectManager.h" />
+    <ClInclude Include="EMGameMng.h" />
+    <ClInclude Include="EMMap.h" />
+    <ClInclude Include="EMNeonSign.h" />
+    <ClInclude Include="EMSled.h" />
+    <ClInclude Include="EMSnowMng.h" />
+    <ClInclude Include="EMStyleButton\ButtonState.h" />
+    <ClInclude Include="EMStyleButton\ClickedState.h" />
+    <ClInclude Include="EMStyleButton\EMStyleButton.h" />
+    <ClInclude Include="EMStyleButton\NoneState.h" />
+    <ClInclude Include="EMStyleButton\OverState.h" />
+    <ClInclude Include="EMTextDisplay.h" />
+    <ClInclude Include="EMVibrater.h" />
+    <ClInclude Include="HowToPlay.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="Producer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="StageMenu.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UserDefine.h" />
+    <ClInclude Include="UserExtern.h" />
+    <ClInclude Include="UserInclude.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Data\Ico\Logo_2.ico" />
+    <None Include="Data\Ico\Logo_3" />
+    <None Include="Data\Ico\Logo_4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game_IcEscape.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

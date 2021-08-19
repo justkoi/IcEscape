@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMenu" Collapsed="true">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAQACgKAhAAAAgAgAQkREQAIGNBEAIAAAAAE=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogo" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAQACgCAhBAAAggAAQABEAAIANBAAIAAAAIA=</HashCode>
+      <FileName>Logo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CProducer" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQQEAAAAARACwCEhIAAAgAgAAkxFAgIAdBBEIAAAAAA=</HashCode>
+      <FileName>Producer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStage" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hASEMKUEAeIKiAglIEIuwRQQIjRHQEMFdDVIKOIiCBQ=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStageMenu" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQEAAQAASACgBAhAAAAoAAAQABGAAJAdBAEIAAAAAE=</HashCode>
+      <FileName>StageMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHowToPlay" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQADgAEhAAAAgAAAAEBEAAIAdBAEIABAAAA=</HashCode>
+      <FileName>HowToPlay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMBlock" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEQEABA0AAAAECAAAAAAEAAAAAEAQgAAIAQKpCAsYBQ=</HashCode>
+      <FileName>EMBlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMMap" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAACAAAAAAA=</HashCode>
+      <FileName>EMMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMGameMng" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAAAAAA=</HashCode>
+      <FileName>EMGameMng.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMVibrater" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQgAAAAACEAACAEAAgAsAAAEAAAQAACICADAAAAAAA=</HashCode>
+      <FileName>EMVibrater.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMDolphin" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAAAgAIAAAAAIAEAAQZIACgAAAEAA=</HashCode>
+      <FileName>EMDolphin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMSled" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAQAAAAAAAEAAwAIAAEAAAIAACgAAAIAA=</HashCode>
+      <FileName>EMSled.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CButtonState" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAIAAAAAAAQAAAAAAAAAAAAEAAAAIAAAEAIAAAQ=</HashCode>
+      <FileName>EMStyleButton\ButtonState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CClickedState" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAgEAAAAYAAAEAAAAAQ=</HashCode>
+      <FileName>EMStyleButton\ClickedState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMStyleButton" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQACkAACAQABEAAAAgAEAAABAxIIAAAaAACsQAAAkQ=</HashCode>
+      <FileName>EMStyleButton\EMStyleButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNoneState" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAQAAAAQAAAAAAAAAAAAEAAAAcAAAEAAAAAQ=</HashCode>
+      <FileName>EMStyleButton\NoneState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COverState" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAgAAAAQAEAAAAAAAAAAEAAAAYAAAEAAAAAQ=</HashCode>
+      <FileName>EMStyleButton\OverState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMTextDisplay" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIwAAgwAAgEQCAQAhagwIBMCAYAAAABJKgQCgAiAEAA=</HashCode>
+      <FileName>EMTextDisplay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMEffectManager" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAACAAAAAAAgAAAAAAACAAAAAIAACAAAAAEA=</HashCode>
+      <FileName>EMEffectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMCamShakeManager" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRCEAAAAAgAAAAAQQAAgADAAEAAAQAAABQCBCAAIAg=</HashCode>
+      <FileName>EMCamShakeManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMNeonSign" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQgAoEABAECAAAABAgEEAAQAAAAAAAAQAAKAAICAAA=</HashCode>
+      <FileName>EMNeonSign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEMSnowMng" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAEAAAgAEAAAAAAAAEAIIAACAAAABAA=</HashCode>
+      <FileName>EMSnowMng.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="stStageInfo" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAEABABEAAAAAAAA=</HashCode>
+      <FileName>StageMenu.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001d_3" Collapsed="true">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAEAACAACAAAsAAAAAAAQAACQAAAAAAAAAA=</HashCode>
+      <FileName>EMVibrater.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0010_2" Collapsed="true">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEABAAAAACAAAAAAAAAAAAAoAAAAAA=</HashCode>
+      <FileName>EMSnowMng.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="E_BLOCKDRAG_DEFECTION" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_BLOCKACT" Collapsed="true">
+    <Position X="13.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_GAMERESULT" Collapsed="true">
+    <Position X="9.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_GAMESTEP" Collapsed="true">
+    <Position X="5.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_BLOCKNUMBER" Collapsed="true">
+    <Position X="1.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMBlock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_BLOCKSTATE" Collapsed="true">
+    <Position X="13.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMBlock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_BLOCKITEM" Collapsed="true">
+    <Position X="13.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMBlock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_DERECTION_VIB" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMVibrater.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_VIBACT_STATE" Collapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMVibrater.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stEMVibrain" Collapsed="true">
+    <Position X="5.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMVibrater.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_DOLPHIN_STATE" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMDolphin.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_DERECTION" Collapsed="true">
+    <Position X="1.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMCamShakeManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_NEONSTATE" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMNeonSign.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="E_SNOW_OPTION_SCENE" Collapsed="true">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMSnowMng.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stSnow" Collapsed="true">
+    <Position X="1.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMSnowMng.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_0024_1" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAQAAAAACAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0024_2" Collapsed="true">
+    <Position X="13.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAACAAAAIAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0024_3" Collapsed="true">
+    <Position X="9.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0024_4" Collapsed="true">
+    <Position X="5.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0002_1" Collapsed="true">
+    <Position X="1.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAACAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>EMBlock.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0002_2" Collapsed="true">
+    <Position X="13.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMBlock.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0002_3" Collapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>EMBlock.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_001d_1" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMVibrater.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_001d_2" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAEAAAAEAACAAAAAAAAAAAA=</HashCode>
+      <FileName>EMVibrater.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0006_1" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMDolphin.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0015_1" Collapsed="true">
+    <Position X="19.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>EMStyleButton\EMStyleButton.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0004_1" Collapsed="true">
+    <Position X="1.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>EMCamShakeManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0189_1" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EMNeonSign.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0010_1" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>EMSnowMng.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e42c8f12-e1ac-4fbc-93ff-2d291426bcb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{81dd5c50-fe69-4e68-9c4f-72bfad36f030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{305fc559-9fcb-4504-b8ae-000960469d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\EMBlock">
+      <UniqueIdentifier>{98688238-5252-4246-a539-ca7460ae12fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\EMMap">
+      <UniqueIdentifier>{ebbee958-176f-49bb-a1bb-c6aaf8da3b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\EMGameMng">
+      <UniqueIdentifier>{041acb56-33d1-4967-b576-a61278b39af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMLibrary">
+      <UniqueIdentifier>{ec1b25bb-7c15-44f5-91ef-ad59b49d76f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMLibrary\EMStyleButton">
+      <UniqueIdentifier>{da9f0ef1-19d5-4267-9c93-95de5f8d5d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMLibrary\EMTextDisplay">
+      <UniqueIdentifier>{5adfe5d6-2d20-46fb-aeb6-14333fe477c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMLibrary\EMEffectManager">
+      <UniqueIdentifier>{02b1b9e9-d38b-446e-a9e2-824d5b85edc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMLibrary\EMCamShakeMng">
+      <UniqueIdentifier>{bf7183dd-519c-4b49-8396-fbbc163be28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\EMVibrater">
+      <UniqueIdentifier>{c2d25247-9f97-4bb8-a760-6b85cfd075a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\EMDolphin">
+      <UniqueIdentifier>{26e2d1dc-a1ec-49b6-b091-52eb11752a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMSnowMng">
+      <UniqueIdentifier>{141e2517-885d-403a-a529-78fb68a1096d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\EMSled">
+      <UniqueIdentifier>{21a7de61-7931-4601-8031-79bea3364631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\EMWallChanger">
+      <UniqueIdentifier>{34202bf9-9876-4105-98ba-085b03fd9a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMLibrary\EMNeonSign">
+      <UniqueIdentifier>{aefa4b9b-e08c-4442-97bb-a1beb6800993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EMLibrary\EMTempest">
+      <UniqueIdentifier>{10b9e53b-6744-426b-aee6-3fb3f05aade8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Stage.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EMVibrater.cpp">
+      <Filter>Game\EMVibrater</Filter>
+    </ClCompile>
+    <ClCompile Include="EMTextDisplay.cpp">
+      <Filter>EMLibrary\EMTextDisplay</Filter>
+    </ClCompile>
+    <ClCompile Include="EMEffectManager.cpp">
+      <Filter>EMLibrary\EMEffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EMBlock.cpp">
+      <Filter>Game\EMBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="EMMap.cpp">
+      <Filter>Game\EMMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EMGameMng.cpp">
+      <Filter>Game\EMGameMng</Filter>
+    </ClCompile>
+    <ClCompile Include="EMStyleButton\ClickedState.cpp">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClCompile>
+    <ClCompile Include="EMStyleButton\EMStyleButton.cpp">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClCompile>
+    <ClCompile Include="EMStyleButton\NoneState.cpp">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClCompile>
+    <ClCompile Include="EMStyleButton\OverState.cpp">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClCompile>
+    <ClCompile Include="EMCamShakeManager.cpp">
+      <Filter>EMLibrary\EMCamShakeMng</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMenu.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EMDolphin.cpp">
+      <Filter>Game\EMDolphin</Filter>
+    </ClCompile>
+    <ClCompile Include="EMSnowMng.cpp">
+      <Filter>EMSnowMng</Filter>
+    </ClCompile>
+    <ClCompile Include="EMSled.cpp">
+      <Filter>Game\EMSled</Filter>
+    </ClCompile>
+    <ClCompile Include="Producer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EMNeonSign.cpp">
+      <Filter>EMLibrary\EMNeonSign</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlay.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stage.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInclude.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserExtern.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDefine.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="EMVibrater.h">
+      <Filter>Game\EMVibrater</Filter>
+    </ClInclude>
+    <ClInclude Include="EMTextDisplay.h">
+      <Filter>EMLibrary\EMTextDisplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EMEffectManager.h">
+      <Filter>EMLibrary\EMEffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EMBlock.h">
+      <Filter>Game\EMBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="EMMap.h">
+      <Filter>Game\EMMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EMGameMng.h">
+      <Filter>Game\EMGameMng</Filter>
+    </ClInclude>
+    <ClInclude Include="EMStyleButton\ClickedState.h">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClInclude>
+    <ClInclude Include="EMStyleButton\EMStyleButton.h">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClInclude>
+    <ClInclude Include="EMStyleButton\NoneState.h">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClInclude>
+    <ClInclude Include="EMStyleButton\OverState.h">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClInclude>
+    <ClInclude Include="EMStyleButton\ButtonState.h">
+      <Filter>EMLibrary\EMStyleButton</Filter>
+    </ClInclude>
+    <ClInclude Include="EMCamShakeManager.h">
+      <Filter>EMLibrary\EMCamShakeMng</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMenu.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EMDolphin.h">
+      <Filter>Game\EMDolphin</Filter>
+    </ClInclude>
+    <ClInclude Include="EMSnowMng.h">
+      <Filter>EMSnowMng</Filter>
+    </ClInclude>
+    <ClInclude Include="EMSled.h">
+      <Filter>Game\EMSled</Filter>
+    </ClInclude>
+    <ClInclude Include="Producer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EMNeonSign.h">
+      <Filter>EMLibrary\EMNeonSign</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlay.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Data\Ico\Logo_2.ico" />
+    <None Include="Data\Ico\Logo_3" />
+    <None Include="Data\Ico\Logo_4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game_IcEscape.rc" />
+  </ItemGroup>
+</Project>
